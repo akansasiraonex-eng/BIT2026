@@ -1,0 +1,102 @@
+body{
+    font-family: Arial,  sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #7898bd;
+    padding: 15px;
+}
+
+.logo{
+    color: blue;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: #333;
+}
+
+.hero{
+    background: #333;
+    text-align: justify;
+    font-style: times new roman;
+    color: white;
+}
+
+.hero button{
+    padding: 12px 25px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.slider img{
+    width: 100%;
+    height: 2000px;
+    object-fit: cover;
+}
+
+.program{
+    justify-content: space-around;
+    padding: 50px 0;
+    background: #c92d2d;
+    font-size: times new roman;
+    color: white;
+}
+
+.Reasons{
+    justify-content: center;
+    gap: 10px;
+}
+.Reason{
+    background: #926f6f;
+    padding: 10px;
+    border-radius: 10px;
+    width: 1000px;
+    color: white;
+}
+
+.courses{
+    background: whitesmoke;
+    padding: 40px;
+    text-align: left;
+    font-size: 20px;
+    font-style: times new roman;
+}
+
+.courses :hover{
+    background: orange;
+}
+
+.courses ul{
+    list-style: none;
+}
+
+.courses li{
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer{
+    background: #002147;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+}
